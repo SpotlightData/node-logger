@@ -5,6 +5,7 @@ Wrapper for [winston](https://github.com/winstonjs/winston)
 ## Usage
 
 ```javascript
+// cjs const logger = require('@spotlightdata/node-logger').default
 import logger from '@spotlightdata/node-logger';
 
 logger.error('Unknown error occurred handling task.');
