@@ -17,5 +17,6 @@ logger.info('Hello again distributed logs');
 - Install packages using `yarn install`
 - Start in development mode by using `yarn dev`
 - Finally build with `yarn build`
+- Run tests using `yarn test`
 
 All versions will automatically be deployed using travis when tagged on master.
