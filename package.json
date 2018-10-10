@@ -1,0 +1,27 @@
+{
+  "name": "spotlight-json-logger",
+  "version": "0.1.2",
+  "description": "A Node.js JSON logger for Spotlight Data's Node.js projects",
+  "main": "dist/lib/index.js",
+  "author": "Will Evans",
+  "scripts": {
+    "dev": "babel-node --presets es2015,stage-2 lib/index.js",
+    "build": "babel --presets es2015,stage-2 --ignore node_modules,dist ./ -d dist",
+    "start": "node dist/lib/index.js",
+    "test": "./node_modules/jest/bin/jest.js",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "babel-jest": "^19.0.0",
+    "chai": "^4.1.2",
+    "jest": "^19.0.2",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "jasmine": "^2.4.1",
+    "nodemon": "^1.11.0"
+  }
+}
