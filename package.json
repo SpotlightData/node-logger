@@ -1,6 +1,6 @@
 {
   "name": "@spotlightdata/node-logger",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A Node.js logger for Spotlight Data's Node.js projects",
   "main": "dist/index.js",
   "author": "Will Evans",
@@ -15,10 +15,7 @@
     "test": "jest --config=jest.config.js"
   },
   "dependencies": {
-    "winston": "3.2.1"
-  },
-  "resolutions": {
-    "lodash": "4.17.15"
+    "winston": "git+https://github.com/winstonjs/winston.git#11f5ea29148bbbd5af878ee594e48c517f2877ff"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
